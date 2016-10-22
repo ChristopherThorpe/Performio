@@ -1,3 +1,8 @@
+# Don't include sound (h5, wav) files, see data/README
+data/*.h5
+data/*.wav
+data/[0-9]*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
